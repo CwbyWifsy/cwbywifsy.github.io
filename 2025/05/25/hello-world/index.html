@@ -44,10 +44,7 @@
     lang   : 'zh-CN'
   };
 </script>
-<!-- Swiper CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+
   <title>Hello World | CwbyWifsy</title>
   
 
@@ -406,38 +403,6 @@
   
 
   
-<!-- 背景轮播容器 -->
-<div class="swiper background-swiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide" style="background-image: url('/images/1.jpeg')"></div>
-    <div class="swiper-slide" style="background-image: url('/images/2.jpeg')"></div>
-    <div class="swiper-slide" style="background-image: url('/images/3.jpeg')"></div>
-  </div>
-  <!-- 添加导航按钮 -->
-  <div class="swiper-button-next swiper-button-white"></div>
-  <div class="swiper-button-prev swiper-button-white"></div>
-  <!-- 添加分页器 -->
-  <div class="swiper-pagination"></div>
-</div>
 
-<script>
-  window.addEventListener('load', function() {
-    const swiper = new Swiper('.background-swiper', {
-      effect: 'fade',
-      loop: true,
-      speed: 1000,
-      // 添加导航按钮配置
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      // 添加分页器配置
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      }
-    });
-  });
-</script> 
 </body>
 </html>
