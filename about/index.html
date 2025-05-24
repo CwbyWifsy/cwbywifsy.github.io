@@ -375,13 +375,16 @@
 </div>
 
 <script>
-  new Swiper('.background-swiper', {
-    effect: 'fade',
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-    },
-    loop: true
+  document.addEventListener('DOMContentLoaded', function() {
+    new Swiper('.background-swiper', {
+      effect: 'fade',
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      speed: 1000
+    });
   });
 </script> 
 </body>
