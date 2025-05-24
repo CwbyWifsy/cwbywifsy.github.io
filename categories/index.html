@@ -44,7 +44,10 @@
     lang   : 'zh-CN'
   };
 </script>
-
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> 
   <title>分类 | CwbyWifsy
 </title>
   
@@ -370,6 +373,24 @@
   
 
   
+<!-- 背景轮播容器 -->
+<div class="swiper background-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide" style="background-image: url('/images/1.jpeg')"></div>
+    <div class="swiper-slide" style="background-image: url('/images/2.jpeg')"></div>
+    <div class="swiper-slide" style="background-image: url('/images/3.jpeg')"></div>
+  </div>
+</div>
 
+<script>
+  new Swiper('.background-swiper', {
+    effect: 'fade',
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    loop: true
+  });
+</script> 
 </body>
 </html>
