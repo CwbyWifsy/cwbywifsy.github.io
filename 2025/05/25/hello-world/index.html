@@ -413,18 +413,29 @@
     <div class="swiper-slide" style="background-image: url('/images/2.jpeg')"></div>
     <div class="swiper-slide" style="background-image: url('/images/3.jpeg')"></div>
   </div>
+  <!-- 添加导航按钮 -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <!-- 添加分页器 -->
+  <div class="swiper-pagination"></div>
 </div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     new Swiper('.background-swiper', {
       effect: 'fade',
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
       loop: true,
-      speed: 1000
+      speed: 1000,
+      // 添加导航按钮配置
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      // 添加分页器配置
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      }
     });
   });
 </script> 

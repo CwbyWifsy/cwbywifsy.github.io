@@ -1175,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #1659ff;
+  background: #b36737;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2325,6 +2325,32 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.background-swiper .swiper-button-next,
+.background-swiper .swiper-button-prev {
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.background-swiper .swiper-button-next:hover,
+.background-swiper .swiper-button-prev:hover {
+  background: rgba(0,0,0,0.5);
+}
+.background-swiper .swiper-button-next:after,
+.background-swiper .swiper-button-prev:after {
+  font-size: 20px;
+}
+.background-swiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  opacity: 0.5;
+}
+.background-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #fff;
 }
 .post-block {
   background: rgba(255,255,255,0.9);
