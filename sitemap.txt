@@ -5,3 +5,5 @@ http://example.com/categories/index.html
 http://example.com/about/index.html
 http://example.com/2025/05/25/hello-world/
 http://example.com/
+http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/
+http://example.com/categories/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/
