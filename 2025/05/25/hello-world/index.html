@@ -44,6 +44,14 @@
     lang   : 'zh-CN'
   };
 </script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"
+></script>
 
   <title>Hello World | CwbyWifsy</title>
   
@@ -142,6 +150,23 @@
 
 
 
+<div class="swiper-container bg-swiper">
+  <div class="swiper-wrapper">
+    <!-- 这里硬编码三张图，按需增删 -->
+    <div
+      class="swiper-slide"
+      style="background-image:url('/images/1.jpeg')"
+    ></div>
+    <div
+      class="swiper-slide"
+      style="background-image:url('/images/2.jpeg')"
+    ></div>
+    <div
+      class="swiper-slide"
+      style="background-image:url('/images/3.jpeg')"
+    ></div>
+  </div>
+</div>
 
 </div>
     </header>
@@ -220,7 +245,20 @@
 
     
     
-    
+    <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.bg-swiper', {
+      loop: true,
+      effect: 'fade',
+      speed: 1000,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false
+      }
+    });
+  });
+</script>
+
 
       <footer class="post-footer">
 
