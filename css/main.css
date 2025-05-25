@@ -1175,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #a7539c;
+  background: #d114ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2310,8 +2310,8 @@ embed {
   z-index: -999;
 }
 .bg-swiper .swiper-slide {
-  background-size: cover !important;
-  background-position: center center !important;
+  background-size: cover;
+  background-position: center center;
 }
 body > :not(.bg-swiper) {
   position: relative;
