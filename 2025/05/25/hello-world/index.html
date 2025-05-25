@@ -150,34 +150,6 @@
 
 
 
-<div class="swiper bg-swiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide" style="background-image:url('/images/1.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/2.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/3.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/4.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/5.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/6.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/7.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/8.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/9.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/10.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/11.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/12.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/13.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/14.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/15.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/16.jpeg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/51.jpg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/52.jpg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/53.jpg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/54.jpg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/55.jpg')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/76.png')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/77.png')"></div>
-    <div class="swiper-slide" style="background-image:url('/images/78.png')"></div>
-  </div>
-</div>
 
 </div>
     </header>
@@ -434,14 +406,10 @@
   
 
   
-
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   console.log('🔄 bg-swiper init everywhere');
-  new Swiper('.bg-swiper', {
-    loop: true,
-    effect: 'fade',
-    speed: 1000,
+  new Swiper('.bg-swiper', { loop: true, effect: 'fade', speed: 1000,
     autoplay: { delay: 5000, disableOnInteraction: false }
   });
 });
