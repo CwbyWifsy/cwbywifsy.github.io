@@ -1,5 +1,5 @@
-http://example.com/2025/05/25/gccg++%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2/
 http://example.com/2025/05/25/%E5%BC%80%E9%80%9AGPT/
+http://example.com/2025/05/25/gccg++%E7%89%88%E6%9C%AC%E5%88%87%E6%8D%A2/
 http://example.com/tags/index.html
 http://example.com/index.html
 http://example.com/Blog/index.html
@@ -8,9 +8,9 @@ http://example.com/resources/index.html
 http://example.com/categories/index.html
 http://example.com/about/index.html
 http://example.com/
-http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/
 http://example.com/tags/ChatGPT/
 http://example.com/tags/GPT-4/
 http://example.com/tags/%E6%95%99%E7%A8%8B%EF%BC%8C-%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/
-http://example.com/categories/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/
+http://example.com/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/
 http://example.com/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/
+http://example.com/categories/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/
