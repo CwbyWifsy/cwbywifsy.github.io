@@ -1175,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #eee221;
+  background: #86c126;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2396,10 +2396,9 @@ body {
   background-attachment: fixed;
   background-position: 50% 50%;
 }
-.post {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+/* 给文章正文加一个半透明白底 */
+.post-body {
+  background: rgba(255,255,255,0.8); /* 80% 不透明度 */
+  padding: 1.2rem;
+  border-radius: 0.5rem;
 }
